@@ -1,0 +1,382 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+  body{
+    font-family: "IBM Plex Sans";
+    width: 100%;
+    height: 100vh;
+    background-color: #FCFAF9;
+    display: flex;
+    flex-direction: column;
+    background-image: url(assets/bg-main-mobile.png);
+    background-repeat: no-repeat;
+    background-position: -30px -250px;
+  }
+
+
+.title{
+  margin-left:24.15px;
+  margin-top:39.99px
+}
+
+.music{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.454545px;
+  color: #191826;  
+  margin: 64.01px 24px 20px 24px;
+}
+
+.header-paragraph{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #191826;
+  margin-right: 24px;
+  margin-left: 24px;  
+}
+
+.phone-container{
+  background-image: url(assets/bg-pattern-2.svg);
+  background-repeat: no-repeat;
+  background-color: #191826;
+  background-position: top;
+  border-radius: 12px;
+  width: 100%;
+  height: 600px;
+  margin-top: 166px;
+  background-size: 280px;
+  position: relative;
+}
+
+.phone{
+width: 208.97px;
+height: 430px;
+position: absolute;
+top: -16%;
+left: 50%;
+transform: translateX(-50%);
+}
+
+.premium-container{
+width: 100%;
+height: 546px;
+background: #FA7453;
+border-radius: 12px;
+margin-top: -220px;
+transform: translateY(2px);
+}
+
+
+
+.prem-title{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #FCFAF9;
+  padding-top: 48px;
+  padding-left: 36px;
+}
+
+
+.premium-paragraph{
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+color: #FCFAF9;
+margin: 12px 37px 0px 36px;
+}
+
+.price{
+font-weight: 700;
+font-size: 65px;
+line-height: 52px;
+color: #FCFAF9;
+margin-top: 36px;
+margin-left: 42px;
+}
+
+.price-month{
+  display: flex;
+  flex-direction: row;
+}
+
+.month{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  color: #FCFAF9;
+  margin-top: 45px;
+  margin-left: 16px;
+}
+
+.buttons{
+align-items: center;
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+.ios-btn{
+width:80%;
+height: 61px;
+background: #191826;
+border-radius: 12px;
+border: none;
+margin: 43px 37px 16px 42px;
+}
+
+.ios{
+font-weight: 700;
+font-size: 18px;
+line-height: 32px;
+text-align: center;
+letter-spacing: -0.18px;
+color: #FCFAF9;
+margin-left: 7.92px;
+}
+
+.android-btn{
+width: 80%;
+height: 61px;
+background: #FCFAF9;
+border-radius: 12px;
+border: none;
+}
+
+.android{
+font-weight: 700;
+font-size: 18px;
+line-height: 32px;
+text-align: center;
+letter-spacing: -0.18px;
+color: #191826;
+}
+
+.footer-title{
+margin-top: 48px;
+margin-left: 25.15px;
+margin-bottom: 32.01px;
+}
+
+.footer-paragraph{
+display: inline-block;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #191826;
+margin-left: 24px;
+margin-right: 24px;
+text-align: left;
+}
+
+.email{
+  font-weight: bold;
+}
+.icons{
+display: flex;
+justify-content: space-evenly;
+width: 45%;
+height: 12vh;
+align-items: end;
+margin-bottom: 80px;
+}
+
+
+ /* for tablet  */ 
+ @media screen and (min-width: 768px) {
+body{
+background-image: url(assets/bg-pattern-1.svg),url(assets/bg-main-tablet.png);
+background-position:550px -38px, -360px -240px;
+background-repeat:no-repeat,no-repeat;
+background-size: 268px, 1200px;
+}
+
+
+.title{
+  margin-top: 61.99px;
+  margin-left: 39.15px;
+}
+
+.music{
+width: 520px;
+height: 192px;
+font-size: 64px;
+line-height: 64px;
+letter-spacing: -0.727273px;
+margin-top: 95px;
+padding-left: 3%;
+}
+
+.header-paragraph{
+width:59%;
+font-size: 18px;
+line-height: 28px;
+margin: 28px 176px 0px 39px;
+}
+
+br{
+  display: none;
+}
+
+.main-components{
+  padding-left: 33px;
+  padding-right: 39px;
+} 
+
+.phone-container{
+  margin-top: 30%;
+  background-position: 48% -20%;
+}
+
+.phone{
+height: 556px;
+width: 270.2055969238281px;
+margin-left: 64px;
+margin-top: -6%;
+transform: translateX(-135%);
+border-radius: 0px;
+}
+
+.premium-container{
+height: 546px;
+width: 399px;
+left: 97px;
+top: 632px;
+margin-left: 272px;
+transform: translateY(-43%);
+margin-left: 32%;
+}
+
+.footer-container{
+margin-top: -15%;
+}
+.footer-title{
+margin-left: 34.15px;
+margin-top: -100px;
+}
+.footer-elements{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icons{
+transform: translateY(-130px);
+width: 25%;
+}
+
+.footer-paragraph{
+  font-size: 16px;
+  width: 366px;
+  padding-left:1%;
+}
+
+ }
+
+  /* for desktop */  
+  @media screen and (min-width: 1440px){
+  body{
+  background-image: url(assets/bg-pattern-1.svg),url(assets/bg-main-desktop.png);
+  background-position: 1140px -38px, -390px -270px;
+  background-repeat:no-repeat,no-repeat;
+  background-size: 300px, 2000px;
+  }
+  
+  
+  .title{
+    margin-left: 127px;
+  }
+
+  
+  .music{
+  width: 1015px;
+  height: 176px;
+  font-size: 88px;
+  line-height: 88px;
+  letter-spacing: -1px;
+  margin-top: 127px;
+  padding-left: 7%;
+  } 
+
+ 
+  .header-paragraph{
+  width: 825px;
+  height: 102px;
+  font-size: 20px;
+  line-height: 34px;
+  padding-left: 6%;
+  margin-top: 40px;
+  }
+  
+  br{
+    display: none;
+  }
+
+   
+  .main-components{
+    padding-left: 33px;
+    padding-right: 39px;
+  } 
+  
+  .phone-container{
+    margin-top: 20%;
+    background-position: 48% -20%;
+    width: 90%;
+    margin-left: 5%;
+  }
+  
+
+  .phone{
+  width: 280px;
+  height: 606px;
+  margin-left: -9%;
+  margin-top: -6%;
+  transform: translateX(-135%);
+  border-radius: 0px;
+  }
+
+  .premium-container{
+  width: 446px;
+  height: 625px;
+  left: 97px;
+  top: 632px;
+  transform: translateY(-43%);
+  margin-left: 53%;
+  }
+
+ 
+  .footer-title{
+  margin-left: 7%;
+  margin-top: 10%;
+
+
+  }
+  .footer-elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .icons{
+  transform: translateY(-190px);
+  width: 18%;
+  }
+  
+  .footer-paragraph{
+    width: 55%;
+    transform: translateY(-25%);
+    padding-left: 30%;
+  }
+  
+  .twitt-icon{
+  margin-right: 40%;
+  }
+   } 
